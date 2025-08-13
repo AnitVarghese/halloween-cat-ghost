@@ -662,6 +662,15 @@ body {
   animation-delay: 4s;
 }
 
+@keyframes twinkle {
+  0%, 100% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 0.2;
+  }
+}
+
 @media (max-width: 850px) {
   .container {
     width: 95vw;
